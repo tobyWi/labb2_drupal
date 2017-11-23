@@ -1,0 +1,16 @@
+name: Labb2
+description: My labb
+type: theme
+base theme: bulma
+package: Core
+core: 8.x
+version: '1.0'
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  bottom: 'Bottom'
+  footer: 'Footer'
+
+libraries:
+  - iths/global

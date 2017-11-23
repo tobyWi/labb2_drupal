@@ -1,0 +1,154 @@
+
+
+/*# sourceMappingURL=default.style.css.map */
+
+
+body {
+	font-family: Helvetica;
+}
+
+
+.image {
+	display: block;
+    height: auto;
+    width: 100%;
+}
+
+.logo-koda {
+	height: 1.75rem;
+}
+
+.navbar-end.menu {
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+	.navbar-end.menu a {
+		color: white;
+	}
+
+.header {
+	background-color: #22C4FD;
+}
+
+.header-body {
+	padding: 10px;
+}
+
+.footer {
+	background-color: #1DB0E3;
+	padding: 0;
+}
+
+.search img {
+	width: 20%;
+}
+
+
+.column.hero {
+	position: relative;
+}
+
+.columns.pushes {
+	margin-bottom: 40px;
+}
+
+.push {
+	position: relative;
+}
+
+.push img {
+	height: 300px;
+}
+
+.push-text {
+	font-weight: bold;
+	position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+}
+
+.push-text a {
+	color: white;
+}
+
+.outer-overlay {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.column.hero .hero-title {
+	font-weight: bold;
+	font-size: 70px;
+}
+
+.column.hero .hero-text {
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+    transform: translateY(-50%);
+    font-size: 70px;
+	color: white !important;
+}
+
+.column.hero .hero-body {
+	font-size: 26px;
+	top: 52%;
+}
+
+.body-text {
+	margin-bottom: 40px;
+}
+
+.what-we-do {
+	margin-bottom: 40px;
+	padding: 40px;
+	background-color: rgba(34, 196, 253, 0.2);
+}
+
+.what-we-do h2 {
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.myButton {
+	border: 0;
+	padding: 25px 40px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	background-color: #22C4FD;
+}
+
+.myButton:hover {
+	color: white;
+}
+
+
+.hero.bottom {
+	background-color: #22C4FD;
+	padding: 50px;
+	color: white;
+}
+
+
+.bottom nav {
+	align-items: flex-start;
+}

@@ -1,0 +1,54 @@
+
+
+{% block header %}
+<section class="header">
+  <div class="header-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column">
+           <img class="logo-koda" src="{{base_path ~ directory}}/assets/img/kodamera-logo-white.png">
+        </div>
+        <div class="column">
+          {{ page.header }}
+        </div>
+        <div class="search">  
+          <img src="{{base_path ~ directory}}/assets/img/icon-search.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock header %}
+
+{% if page.content %}
+  {{page.content}}
+{% endif %}
+
+{% block bottom %}
+{% if page.bottom %}
+<section class="hero bottom">
+  <div class="container">
+    <div class="columns">
+      {{ page.bottom }}
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endblock bottom %}
+
+{% block footer %}
+<section class="footer">
+  <div class="footer-body">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column">
+           <img class="logo-koda" src="{{base_path ~ directory}}/assets/img/kodamera-logo-white.png">
+        </div>
+        <div class="column">
+          {{ page.footer }}
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock footer %}
